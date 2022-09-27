@@ -2,11 +2,16 @@ body{
     font-family: 'Inter Tight', sans-serif;
 }
 * {box-sizing:border-box}
+header{
+  max-height: 70vh;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 90vw;
-  position: relative;
+  max-width: 65vw;
+  padding-left: 50px;
+  padding-top: 50px;
+  position:absolute;
   margin: auto;
 }
 
@@ -58,6 +63,7 @@ body{
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
+  padding-top: 50px;
   position: absolute;
   top: 0;
 }
@@ -81,10 +87,16 @@ body{
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.6s;
+  animation-duration: 3s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .7}
   to {opacity: 1}
 }
+
+.texto{
+  min-width: 70vw;
+  padding-top: 50px;
+}
+
