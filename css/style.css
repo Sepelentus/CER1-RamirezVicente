@@ -100,3 +100,93 @@ header{
   padding-top: 50px;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("../img/Metaphorical\ music.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+}
+
+.parallax2{
+  /* The image used */
+  background-image: url("../img/Modal\ Soul.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+}
+
+.parallax3{
+  /* The image used */
+  background-image: url("../img/Spiritual\ State.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+}
+
+.parallax4{
+  /* The image used */
+  background-image: url("../img/luvsicpt6.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+}
+
+.parallax, .parallax2, .parallax3, .parallax4{
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoAlbum{
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 40px 70px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.textoAlbum2{
+  
+  text-align: center;
+  background-color:rgb(202, 72, 50);
+  padding: 40px 70px;
+  text-align: justify;
+  font-size: 24px;
+  color: white;
+}
+
+.textoAlbum3{
+  
+  text-align: center;
+  background-color:rgb(158, 214, 206);
+  padding: 40px 70px;
+  text-align: justify;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+a:link{
+  color: rgb(63, 163, 63);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#card1, #card2, #card3{
+  height: 40vh;
+  margin-bottom: 20px;
+}
