@@ -161,7 +161,7 @@ header{
 .textoAlbum3{
   
   text-align: center;
-  background-color:rgb(158, 214, 206);
+  background-color:rgb(227, 38, 103);
   padding: 40px 70px;
   text-align: justify;
   font-size: 24px;
@@ -189,4 +189,51 @@ a:hover {
 #card1, #card2, #card3{
   height: 40vh;
   margin-bottom: 20px;
+  font-size: 13px;
+}
+
+/* Menus para la biografia*/
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #e8feff;
+  width: 27vw;
+  height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 16px 12px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  background-color:floralwhite;
+  width: 73vw;
+  border-left: none;
+  height: 300px;
+  overflow: scroll;
 }
